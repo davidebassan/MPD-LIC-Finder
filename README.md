@@ -1,14 +1,15 @@
-# MPD & LIC Finder 🕵️‍♂️
+# MPD & LIC Finder 🕵️‍♂️  
 
-MPD & LIC Finder is a Chrome extension that automatically detects **`.mpd` files** and **URLs containing "lic"** in network requests. It allows users to **copy detected values** easily for further use.
+MPD & LIC Finder is a Chrome extension that automatically detects **`.mpd` files** and **URLs containing "lic"** in network requests. It allows users to **copy detected values** easily and even **generate a `.bat` script** for further use.  
 
-## 🔥 Features
-- ✅ **Detects `.mpd` files** from network requests.
-- ✅ **Extracts `<cenc:pssh>` values** from `.mpd` files.
-- ✅ **Finds and lists URLs containing "lic"** dynamically.
-- ✅ **Allows easy copying of extracted values** with a single click.
-- ✅ **Works per active tab**, keeping MPD and LIC results separate for each Chrome tab.
-- ✅ **Lightweight & privacy-friendly**: Only listens to network requests, no tracking.
+## 🔥 Features  
+- ✅ **Detects `.mpd` files** from network requests.  
+- ✅ **Extracts `<cenc:pssh>` values** from `.mpd` files.  
+- ✅ **Finds and lists URLs containing "lic"** dynamically.  
+- ✅ **Allows easy copying of extracted values** with a single click.  
+- ✅ **Generates a `.bat` script** for easy video downloading with `N_m3u8DL-RE`.  
+- ✅ **Works per active tab**, keeping MPD and LIC results separate for each Chrome tab.  
+- ✅ **Lightweight & privacy-friendly**: Only listens to network requests, no tracking.  
 
 ---
 
@@ -36,6 +37,7 @@ Since this is a developer extension, install it manually:
 - **Extracted `<cenc:pssh>` values from `.mpd` files.**
 - **A list of URLs containing "lic".**
 5. **Copy values easily** using the "📋 Copy" buttons.
+6. Generate a `.bat` **script** to automate video downloads.
 
 ---
 
