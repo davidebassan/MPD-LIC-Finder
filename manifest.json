@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "MPD & LIC Finder",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Automatically detects .mpd files and URLs containing 'lic' in network requests and allows easy copying.",
   "author": "Davide Bassan",
   "homepage_url": "https://github.com/davidebassan/MPD-LIC-Finder",

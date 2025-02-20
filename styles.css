@@ -159,3 +159,11 @@ li a {
 .lic-copy-btn:hover {
     background: #218838;
 }
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
