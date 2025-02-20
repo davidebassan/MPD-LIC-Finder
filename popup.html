@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPD & LIC Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 MPD & LIC Finder</h2>
+
+        <div class="section">
+            <label for="mpd-select">🎥 Seleziona un file MPD:</label>
+            <select id="mpd-select"></select>
+            <button id="load-mpd">Carica MPD</button>
+        </div>
+
+        <div class="section">
+            <div class="title-container">
+                <h3>🔑 Valore <cenc:pssh></h3>
+            </div>
+            <textarea id="mpd-content" rows="3" readonly></textarea>
+        </div>
+
+        <div class="section">
+            <div class="title-container">
+                <h3>📜 File LIC trovati</h3>
+            </div>
+            <ul id="lic-list"></ul>
+        </div>
+
+        <button id="clear" class="btn-danger">❌ Cancella Lista</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "MPD & LIC Finder",
+  "version": "1.1",
+  "description": "Automatically detects .mpd files and URLs containing 'lic' in network requests and allows easy copying.",
+  "author": "Davide Bassan",
+  "homepage_url": "https://github.com/davidebassan/MPD-LIC-Finder",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
